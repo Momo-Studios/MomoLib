@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "momolib",
+  "version": "${version}",
+  "name": "Momolib",
+  "description": "A library of tools used for Momo Studios mods",
+  "authors": [
+    "chubbymomo",
+    "iMikul",
+    "skinnymomo"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/momolib/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.momostudios.momolib.client.MomolibClient"
+    ],
+    "main": [
+      "dev.momostudios.momolib.Momolib"
+    ]
+  },
+  "mixins": [
+    "momolib.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
