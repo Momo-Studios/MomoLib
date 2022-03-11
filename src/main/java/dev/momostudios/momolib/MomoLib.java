@@ -10,7 +10,6 @@ public class MomoLib
 {
     private static final Logger LOGGER = LogManager.getLogger();
 
-
     public MomoLib()
     {
         MinecraftForge.EVENT_BUS.register(this);
